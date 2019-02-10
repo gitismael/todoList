@@ -1,0 +1,34 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "todo list app using vue.js and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitismael/todoList.git"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "Ismaël Hamdoun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitismael/todoList/issues"
+  },
+  "homepage": "https://github.com/gitismael/todoList#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
